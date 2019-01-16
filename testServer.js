@@ -13,6 +13,8 @@ io.on('connection', (socket) => {
   console.log('testServer.js line 13 -- user connected');
   socket.on('join', (room) => {
     socket.join(room);
+    
+    // The server passes a Seuss-array to the client
     io.emit('updateRoomsList',['thing1', 'thing2'] );
     
   });
