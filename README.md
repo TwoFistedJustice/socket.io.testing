@@ -26,5 +26,6 @@ Any help would be appreciated.
 
 
 If you have the same trouble posting to the Q&A that I have, feel
-free to open an issue on this repo if you like.
+free to open an issue on this repo if you like and post your thoughts
+there.
 
