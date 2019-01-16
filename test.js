@@ -8,10 +8,10 @@ const socket2 = client (url);
 
 const expect = require ('expect');
 
-const seedRooms = {
-  one: 'Room1',
-  two: 'Room2',
-}
+// const seedRooms = {
+//   one: 'Room1',
+//   two: 'Room2',
+// }
 
 describe ('Suite of unit tests', function () {
   var rooms;
@@ -20,11 +20,11 @@ describe ('Suite of unit tests', function () {
     var testServer = require('./testServer');
     
     socket.on ('connect', function () {
-      socket.emit('join', seedRooms.one);
+      // socket.emit('join', seedRooms.one);
     });
     
     socket2.on ('connect', function () {
-      socket2.emit('join', seedRooms.two);
+      // socket2.emit('join', seedRooms.two);
     });
     
     
